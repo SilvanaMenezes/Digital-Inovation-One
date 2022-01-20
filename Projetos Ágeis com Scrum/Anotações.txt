@@ -1,0 +1,11 @@
+## Projetos Ágeis e Metodologia Scrum
+
+A Metodologia Scrum nos permite gerenciar projetos de forma mais ágil, contando com a responsabilidade de cada integrante da equipe utilizando ferramentas, ritos e teorias que permitem maior produtividade entre os participantes.
+
+Scrum é um framework onde o projeto vai sendo entregue ao cliente aos poucos até atingir sua forma completa. Atualmente usa-se aplicativos como o Trello e o Notion para o gerenciamento do projeto, planejar cerimônias e acompanhar as entregas e resultados das equipes.
+
+O mundo está em movimento e a transformação digital treina as pessoas e organizações a utilizarem a tecnologia para melhorar seus desempenhos e resultados através de um mindset ágil e colaborativo.
+
+## Link útil:
+
+https://web.dio.me/course/projetos-ageis-com-scrum-1/learning/d85f3166-2d0d-4a68-b646-2b4cd99e7698?back=/track/inter-frontend-developer

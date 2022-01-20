@@ -1,0 +1,15 @@
+## Lógica de Programação
+
+Algoritmos computacionais são passos a serem seguidos por um módulo processador e seus respectivos usuários que, quando executados na ordem correta, conseguem realizar determinada tarefa.
+
+Para tanto, é preciso desenvolver o raciocínio lógico de forma que a tomada de decisões e escrita de expressões sejam bem feitas, limpas e objetivas.
+
+Podemos praticar a lógica de programação através de aplicativos como o Portugol, Scratch e Visualog. Segue links para dowloads abaixo.
+
+## Links úteis:
+
+https://studio.code.org/s/mc/lessons/1/levels/1 (treinar lógica jogando Minecraft)
+https://www.proprofsgames.com/wolf-sheep-and-cabbage/ (treinar lógica jogando com o Lobo e a Ovelha)
+https://scratch.mit.edu/projects/editor/?tutorial=getStarted (crie uma história usando lógica de programação)
+http://lite.acad.univali.br/portugol/ (dowload)
+https://visualg3.com.br/ (dowload)

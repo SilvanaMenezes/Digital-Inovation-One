@@ -1,0 +1,165 @@
+# HTML5
+
+## Definição
+
+Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.
+
+Com o HTML definimos o significado e a estrutura do conteúdo da web e, além de texto, nossas páginas precisam de imagens, vídeos e vários outros formatos e para isso temos os elementos HTML.
+
+Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento. Existem elementos que não tem tag de fechamento.
+
+Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma de fontes e adicionar diferentes mídias ao nossa página na web.
+
+
+
+## Estrutura Básica 
+
+A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
+
+**<html>**
+
+A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang.
+
+**<head>**
+
+A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o viewport que permite o navegador exibir o conteúdo do site em diversos tamanhos de telas, o JavaScript com a tag script, o CSS através das tags style e link entre outras meta tags.
+
+**<body>**
+
+Colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
+
+
+
+## Semântica
+
+A semântica nos permite descrever mais precisamente o nosso conteúdo, agora um bloco de texto não é apenas uma div, agora é um article e tem mais significado assim. E temos vários elementos para ressignificar as divs:
+
+**<section>**
+
+Representa uma seção genérica de conteúdo quando não houver um elemento mais específico para isso.
+
+**<header>**
+
+É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.
+
+**<article>**
+
+Representa um conteúdo independente e de maior relevância dentro de uma página, como um post de blog, uma notícia em uma barra lateral ou um bloco de comentários. Um article pode conter outros elementos, como header, cabeçalhos, parágrafos e imagens.
+
+**<aside>**
+
+É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.
+
+**<footer>**
+
+Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body. 
+
+**<h1>**-**<h6>**
+
+São utilizados para marcar a importância dos títulos, sendo <h1> o mais importante e <h6> o menos. 
+
+
+
+## Textos e links
+
+Os elementos h1-h6 são essenciais para nos indicar visualmente a importância e localização de seções de texto na página, mas para textos maiores e mais densos usamos o elemento p.
+
+O <p> representa um parágrafo, mas ele não suporta apenas texto, podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele.
+
+Um outro elemento interessante e extremamente necessário na web é o <a> - que significa anchor/âncora, ele representa um hyperlink, é ele que interliga vários conteúdos e páginas na web.
+
+## Imagens
+
+O elemento img é bem simples, contendo apenas 2 atributos próprios, o src e o alt.
+
+O src é obrigatório e guarda o caminho para a imagem que você quer mostrar na página.
+
+O alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
+
+## Listas
+
+Listas servem para agrupar uma coleção de itens, como uma lista de ingredientes ou, como será no nosso caso, uma lista com contatos.
+
+O elemento ul cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados.
+
+O <ol> serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.
+
+E o elemento li é um item dentro de uma dessas listas. Um <li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
+
+
+
+# CSS 3
+
+## Definição e seletores
+
+Após a criação do HTML a necessidade de formatar as páginas ficou evidente, assim, em 1996, foi criada a linguagem de estilo que conhecemos por CSS.
+
+ 
+
+## ID x Classe
+
+ID: é representado pelo símbolo # (hash) seguido de um nome para esse ID.
+
+Classe: a classe é representada de forma parecida do ID, mas é precedida por um ponto em vez do hash.
+
+E a diferença mais importante entre eles é a forma como devem ser usados: o ID só pode ser usado uma vez em uma página HTML enquanto a classe não tem restrições.
+
+
+
+## Box-model
+
+Quando estamos criando o layout de um site o navegador representa cada elemento HTML como uma caixa retangular, isso é o box-model. E com CSS nós alteramos a aparência dessa caixa (largura, altura, cor de fundo, etc.). Essa caixa é composta por 4 áreas: o conteúdo, o padding, a borda e a margem.
+
+- As margens (margin) são espaçamentos entre elementos;
+- As bordas (border) ;
+- O padding é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
+- O conteúdo (content) é o que o seu bloco representa, um texto, uma imagem, um vídeo; 
+-  
+
+## Estilizando elementos
+
+### Background
+
+A propriedade *background* também é um atalho para várias propriedades,  3 das principais formas de colocar cor de fundo nos elementos são, pelo nome da cor em inglês, pelo código hexadecimal e usando o atalho *background*, mas existem outras formas também.
+
+
+
+### Border
+
+A propriedade *border* pode ter 3 valores: a largura, a cor e o estilo, mas existem algumas particularidades nisso.
+
+A largura pode ser usada com várias unidades, como px, em e mm. A cor pode ser atribuída pelo nome ou por um código hexadecimal, assim como no *background*, e o estilo é representada por palavras-chave, algumas delas são: 
+
+**solid**: mostra uma borda simples e reta;
+
+**dotted**: são bolinhas com um pequeno espaçamento entre elas;
+
+**dashed**: forma uma linha tracejada.
+
+É possível usar a propriedade *border* com as propriedade específicas para cada aspecto de uma borda, são elas *border-width* para a largura, *border-color* para a cor e *border-style* para o estilo. 
+
+A propriedade é o *border-radius*, permite arredondar os cantos de um elemento.
+
+ 
+
+## Estilizando textos 
+
+### Font-family
+
+Pode ser alterada com uma fonte da internet que seja *web safe fonts* .
+
+
+
+### Font-size
+
+ Existem algumas unidades de medida para mudar o tamanho do texto do documento html, um dos mais usados é o pixel.
+
+
+
+### Font-style
+
+Normalmente usado para tornar um texto itálico, usando o *italic*.
+
+## Link útil:
+
+https://web.dio.me/course/introducao-criacao-de-websites-com-html5-e-css3/learning/462f831d-5fdf-485e-bf07-1d391eb94ac8?back=/track/inter-frontend-developer

@@ -1,0 +1,17 @@
+## O que é Git?
+
+É a ferramenta de controle de versões mais utilizada, foi inicialmente projetado e desenvolvido por Linus Torvalds.
+
+Através do controle de versões podemos gerenciar o código fonte em desenvolvimento.
+
+
+## O que é Github?
+
+O GitHub foi desenvolvido por Chris Wanstrath, J. Hyett, Tom Preston-Werner e Scott Chacon usando Ruby on Rails, e começou em fevereiro de 2008.
+
+é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+
+
+## Link útil:
+
+https://pt.wikipedia.org/wiki/GitHub
